@@ -34,7 +34,7 @@ keywords:              []
 # site logo (사이드바에 뜨는 이미지)
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-# logo:                  /assets/icons/icon.png
+logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -46,12 +46,12 @@ author:
 # Add links to the sidebar.
 # 사이드바 메뉴
 menu:
-  - title:             About
-    url:               /about/
   - title:             Posts
     url:               /docs/
   - title:             Dev
     url:               /dev/
+  - title:             About
+    url:               /about/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
@@ -85,15 +85,15 @@ theme_color:           rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts:          Roboto+Slab:400|Noto+Sans:400,400i,700,700i
+google_fonts:          Nanum+Gothic:400|Noto+Sans:400,400i,700,700i
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font:                  Noto Sans, Helvetica, Arial, sans-serif
+font:                  Nanum Gothic, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:          Nanum Gothic, Helvetica, Arial, sans-serif
 
 defaults:
   - scope:
