@@ -1,9 +1,7 @@
 # Config
 # ========================================================================================
 
-# IMPORTANT: Set the URL of your site.
-# Set to https://<username>.github.io when hosting on GitHub Pages
-# (unless you are using a custom domain).
+# site URL
 url:                   https://bbang3.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
@@ -33,7 +31,7 @@ tagline:               >
 # A list of keywords for your blog
 keywords:              []
 
-# A (square) logo for your site.
+# site logo(브라우저 탭에 뜨는 사각형 이미지)
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/icons/icon.png
@@ -48,13 +46,14 @@ author:
 # Add links to the sidebar.
 # 사이드바 메뉴
 menu:
-  - title:             about
+  - title:             About
     url:               /about/
   - title:             Posts
     url:               /docs/
   - title:             Dev
     url:               /dev/
-
+  - title: "@qwtel"
+    url:   https://qwtel.com/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 # legal:
@@ -64,7 +63,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2018. All rights reserved.
+copyright:             © 2019. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
