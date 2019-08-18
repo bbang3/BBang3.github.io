@@ -28,7 +28,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  공돌이의 끄적임
+  블로그 만드는 중
 
 # A list of keywords for your blog
 keywords:              []
@@ -46,15 +46,14 @@ author:
   # twitter:             <username>
 
 # Add links to the sidebar.
+# 사이드바 메뉴
 menu:
-  - title:             Hydejack
-    url:               /hydejack/
-  - title:             Hyde
-    url:               /hyde/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
+  - title:             about
     url:               /about/
+  - title:             Posts
+    url:               /docs/
+  - title:             Dev
+    url:               /dev/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
